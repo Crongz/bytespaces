@@ -1,8 +1,16 @@
 {
   "name": "bytespaces",
   "version": "1.0.0",
-  "homepage": "",
-  "author": "Andy Vuong",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
+  },
+  "keywords": [
+    "MEAN",
+    "Express",
+    "Angular"
+  ],
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
