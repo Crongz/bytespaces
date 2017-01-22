@@ -1,7 +1,6 @@
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    var url = 'http://localhost:3000/api/comment';
-    //var url = 'http://bytespaces/api/comment';
+    var url = 'http://www.bytespaces.com/api/comment';
     if ( request.type === 'get' ) {
       console.log('get');
       $.ajax({
