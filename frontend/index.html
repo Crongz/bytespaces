@@ -27,40 +27,6 @@
 
   <!-- main body of our application -->
   <div class="container" ng-controller="DashboardController">
-<!--     <div class="col-sm-3 col-sm-offset-1 col-sm-push-8">
-      <div class="card hovercard">
-        <div class="cardheader">
-
-        </div>
-        <div class="avatar">
-            <img alt="" src="http://lorempixel.com/100/100/people/9/">
-        </div>
-        <div class="info">
-            <div class="title">
-                <a target="_blank" href="http://scripteden.com/">Script Eden</a>
-            </div>
-            <div class="desc">Passionate designer</div>
-            <div class="desc">Curious developer</div>
-            <div class="desc">Tech geek</div>
-        </div>
-        <div class="bottom">
-            <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a class="btn btn-danger btn-sm" rel="publisher"
-               href="https://plus.google.com/+ahmshahnuralam">
-                <i class="fa fa-google-plus"></i>
-            </a>
-            <a class="btn btn-primary btn-sm" rel="publisher"
-               href="https://plus.google.com/shahnuralam">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a class="btn btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
-                <i class="fa fa-behance"></i>
-            </a>
-        </div>
-      </div>
-    </div> -->
     <div class="container search">
       <div class="row">
         <div class="col-md-12">
@@ -106,7 +72,7 @@
           </div>
         </div>
 
-        <p>{{Webpage.description}}<a ng-href={{Webpage.url}}><b>more detail</b></a></p>
+        <p>{{Webpage.description}}<a ng-href={{Webpage.url}}><b>..more detail</b></a></p>
         
         <span class="tag label label-success" ng-repeat="keyword in Webpage.keywords | limitTo:10" >{{keyword}} </span>
 
