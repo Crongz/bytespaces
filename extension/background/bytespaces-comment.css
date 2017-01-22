@@ -18,11 +18,19 @@
 .bytespaces-button { 
   width: 85%;
   text-align: center;
-  border: 2px solid #033649;
+  border: 2px solid #248F8D;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #248F8D;
+  box-shadow: none;
 } 
+
+.bytespaces-button:hover {
+  background-color: #248F8D;
+  opacity: 87%;
+  box-shadow: none;
+}
 
 .bytespaces-overlay {
   position: absolute;
@@ -45,42 +53,29 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #494D4B;
+    background-color: #242729;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
-    
-}
+    padding-top: 50px; 
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
 }
-
 .sidenav li {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 1.1em;
+    color: #F0E2A4;
     display: block;
-    transition: 0.3s
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    transition: 0.3s;
+    margin-top:3%;
+    margin-bottom:3%;
 }
 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 5%;
     font-size: 36px;
     margin-left: 50px;
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .sidenav textarea {
@@ -92,4 +87,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px; 
+}
+
+.username {
+  color: #FFAB98;
+}
+
+#comment-list {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.date {
+  color: #EFF3CD;
+  font-size: 0.8em !important;
+}
+
+.dbtn {
+  color: #248F8D !important;
 }
